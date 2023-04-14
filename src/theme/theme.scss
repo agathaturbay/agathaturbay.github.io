@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Merriweather";
+  src: url("../assets/fonts/Merriweather/Merriweather-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/Lato/Lato-Regular.ttf");
+}
+
+.solutions-btn {
+  background-image: linear-gradient(to right, #2a5d6d 0%, #d0eaf2 51%, #2d6475 100%);
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  margin: 0 35%;
+}
+
+.solutions-btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.align-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  cursor: default;
+}
+.inside__footer {
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  text-align: left;
+  color: #3e3e3e;
+  font-size: 16px;
+  order: 1;
+  margin-bottom: 0;
+}
+.social {
+  order: 2;
+  margin-bottom: 0;
+}
+.icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-left: 20px;
+  fill: #3e3e3e;
+  transition: fill 0.15s, filter 0.15s;
+}
+.icon:first-child {
+  margin-right: 0;
+}
+.facebook:hover {
+  fill: #3b5998;
+}
+.linkedin:hover {
+  fill: #1da1f2;
+}
+
+.icon:active {
+  filter: brightness(70%);
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    padding: 30px;
+    margin-bottom: 106px;
+  }
+  .inside__footer {
+    flex-direction: column;
+  }
+  .copyright {
+    font-size: 14px;
+    text-align: center;
+    order: 2;
+    margin-bottom: 4px;
+  }
+  .social {
+    order: 1;
+    margin-bottom: 4px;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: fill 0s, filter 0s;
+  }
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}

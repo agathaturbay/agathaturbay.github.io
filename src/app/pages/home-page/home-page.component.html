@@ -1,0 +1,137 @@
+<ion-header></ion-header>
+<ion-content>
+  <section class="about-us">
+    <div class="banner-img">
+      <ion-grid>
+        <ion-row class="ion-justify-content-center">
+          <ion-col size-sm="6" size-lg="6" size-xl="8">
+            <div class="align-container">
+              <div class="title"><span [translate]="'homePage.aboutUs'"></span></div>
+              <div class="banner-text">
+                <span [translate]="'homePage.aboutUsText'"></span>
+              </div>
+              <button class="solutions-btn" onclick="window.location.href='/tabs/message-us';" value="Redirect">
+                <span [translate]="'homePage.contactUs'"></span>
+              </button>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </section>
+
+  <section class="our-solutions">
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size-sm="6" size-lg="6" size-xl="8">
+          <div class="align-container">
+            <div class="title"><span [translate]="'homePage.ourSolutions'"></span></div>
+            <div class="solutions-text">
+              <span [translate]="'homePage.ourSolutionsText'"></span>
+            </div>
+            <button class="solutions-btn" onclick="window.location.href='/tabs/feed';" value="Redirect">
+              <span [translate]="'global.clickHere'"></span>
+            </button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </section>
+
+  <section class="smart-cities">
+    <ion-grid>
+      <ion-row class="ion-justify-content-center">
+        <ion-col size-sm="6" size-lg="6" size-xl="8">
+          <div class="title cities-title"><span [translate]="'homePage.infoSystems'"></span></div>
+          <div id="ct">
+            <div class="corner" id="left_top"></div>
+            <div class="corner" id="left_bottom"></div>
+            <div class="corner" id="right_top"></div>
+            <div class="corner" id="right_bottom"></div>
+            <blockquote>
+              <p class="author-name">Amit Ray</p>
+              <br />
+              <p class="quote-text">
+                <i>&ldquo;<span [translate]="'homePage.quoteCity'"></span>&rdquo; </i>
+              </p>
+            </blockquote>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </section>
+
+  <section class="our-products">
+    <ion-slides [options]="option" class="ion-margin-top">
+      <ion-slide>
+        <ion-card>
+          <img src="../../../assets/satelite.webp" />
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <img src="../../../assets/satelite.webp" />
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <img src="../../../assets/satelite.webp" />
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <img src="../../../assets/satelite.webp" />
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card>
+          <img src="../../../assets/satelite.webp" />
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+    <div class="arrow-back" (click)="slidePrev()">
+      <ion-icon name="arrow-back"></ion-icon>
+    </div>
+    <div class="arrow-forward" (click)="slideNext()">
+      <ion-icon name="arrow-forward"></ion-icon>
+    </div>
+  </section>
+
+  <section class="webgis-mobile" style="margin: 5rem 0">
+    <div class="row">
+      <div class="column">
+        <img class="mobile-image" src="../../../assets/appwebgis.webp" alt="WebGIS mobile" />
+      </div>
+      <div class="column">
+        <div class="mobile-texts">
+          <div class="webgis-title"><span [translate]="'homePage.webgisApp'"></span></div>
+          <div class="webgis-text">
+            <span [translate]="'homePage.webgisAppText'"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="inside__footer">
+      <p class="copyright">&copy; 2022 Senografia, Inc. <span [translate]="'global.allRights'"></span></p>
+      <div class="social">
+        <a href="https://www.facebook.com/SenografiaDesenvolvimento/" target="_blank" rel="noopener">
+          <ion-icon name="logo-facebook" class="icon facebook"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/senografia-desenvolvimento-solucoes/mycompany/"
+          target="_blank"
+          rel="noopener"
+        >
+          <ion-icon name="logo-linkedin" class="icon linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
+  </footer>
+</ion-content>

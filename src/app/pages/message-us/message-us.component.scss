@@ -1,0 +1,58 @@
+.form-wrapper {
+  background-color: #fcfcfc;
+  height: 90%;
+}
+.message-us-title {
+  text-align: center;
+  font-size: 40px;
+  color: #173518;
+  font-family: "Times New Roman", Times, serif;
+  padding: 2rem 0;
+}
+
+.message-form {
+  padding: 15px 40px;
+  border-radius: 10px;
+  height: 600px;
+
+  @media (min-width: 850px) {
+    margin: 0 0 0 20%;
+  }
+
+  .message-label {
+    font-size: 18px;
+    color: #173518;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5px;
+  }
+
+  .message-input {
+    width: 100%;
+    max-width: 650px;
+    resize: none;
+    height: 40px;
+    outline: 0 none;
+    padding: 10px 10px;
+    border: solid 1px #a6aca6;
+    border-radius: 5px;
+  }
+}
+
+.map-form {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 500px;
+
+  @media (min-width: 850px) {
+    margin: 0 20% 0 0;
+  }
+}
+
+.map-form iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

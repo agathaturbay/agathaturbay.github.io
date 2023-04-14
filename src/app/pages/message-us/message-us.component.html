@@ -1,0 +1,89 @@
+<ion-content>
+  <div class="form-wrapper">
+    <div class="message-us-title">Fale conosco</div>
+    <div class="row">
+      <div class="column">
+        <div class="message-form">
+          <form>
+            <mat-card>
+              <mat-form-field>
+                <div class="message-label"><span [translate]="'messageUs.name'"></span></div>
+                <textarea
+                  class="message-input"
+                  matInput
+                  placeholder="João da Silva"
+                  [formControl]="nameFormControl"
+                ></textarea>
+                <br />
+              </mat-form-field>
+              <br />
+              <mat-form-field>
+                <div class="message-label"><span [translate]="'messageUs.email'"></span></div>
+                <textarea
+                  class="message-input"
+                  matInput
+                  placeholder="exemplo@gmail.com"
+                  [formControl]="emailFormControl"
+                ></textarea>
+                <br />
+              </mat-form-field>
+              <br />
+              <mat-form-field>
+                <div class="message-label"><span [translate]="'messageUs.message'"></span></div>
+                <textarea
+                  class="message-input"
+                  style="height: 200px"
+                  matInput
+                  placeholder="Como podemos ajudar?"
+                  [formControl]="messageFormControl"
+                ></textarea>
+                <br />
+              </mat-form-field>
+              <br />
+              <button
+                class="solutions-btn"
+                mat-raised-button
+                [disabled]="emailFormControl.invalid || nameFormControl.invalid || loading"
+                color="primary"
+                (click)="register()"
+              >
+                <span [translate]="'messageUs.send'"></span>
+              </button>
+            </mat-card>
+          </form>
+        </div>
+      </div>
+      <div class="column">
+        <div class="map-form">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.43599003726!2d-49.29127298438878!3d-25.423683438870636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3f962da292f%3A0x265aa20e4f680e1b!2sRua%20J%C3%BAlia%20Wanderley%2C%20450%20-%20Merc%C3%AAs%2C%20Curitiba%20-%20PR%2C%2080430-030!5e0!3m2!1spt-BR!2sbr!4v1669140821558!5m2!1spt-BR!2sbr"
+            width="650"
+            height="700"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            title="Mapa da Senografia"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="inside__footer">
+      <p class="copyright">&copy; 2022 Senografia, Inc. All Rights Reserved.</p>
+      <div class="social">
+        <a href="https://www.facebook.com/SenografiaDesenvolvimento/" target="_blank" rel="noopener">
+          <ion-icon name="logo-facebook" class="icon facebook"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/company/senografia-desenvolvimento-solucoes/mycompany/"
+          target="_blank"
+          rel="noopener"
+        >
+          <ion-icon name="logo-linkedin" class="icon linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
+  </footer>
+</ion-content>

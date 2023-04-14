@@ -1,0 +1,22 @@
+ion-menu {
+  --ion-background-color: #f0f0f0;
+}
+
+ion-icon {
+  color: #173518;
+}
+
+.menu-div {
+  ion-item {
+    --border-style: none;
+    --border-color: transparent;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    --color-hover: #173518;
+    ion-label {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}

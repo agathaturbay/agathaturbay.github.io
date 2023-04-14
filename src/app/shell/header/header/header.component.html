@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button color="light"></ion-menu-button>
+    </ion-buttons>
+
+    <ion-button fill="clear" class="logo-btn" routerLink="/tabs/homePage" aria-label="Home page">
+      <img class="logo" src="../../../../assets/senografia-logo.webp" alt="Logo da senografia" />
+    </ion-button>
+
+    <ion-title slot="end">
+      <ion-button
+        class="display-btn"
+        routerLink="/tabs/homePage"
+        aria-label="Home page"
+        fill="clear"
+        class="header-btn"
+      >
+        <ion-icon name="home-outline" class="header-icon"></ion-icon><span [translate]="'global.home'"></span>
+      </ion-button>
+
+      <ion-button class="display-btn" routerLink="/tabs/feed" aria-label="Home page" fill="clear" class="header-btn">
+        <ion-icon name="bulb-outline" class="header-icon"></ion-icon><span [translate]="'homePage.ourSolutions'"></span>
+      </ion-button>
+
+      <ion-button
+        class="display-btn"
+        routerLink="/tabs/message-us"
+        aria-label="Home page"
+        fill="clear"
+        class="header-btn"
+      >
+        <ion-icon name="mail-outline" class="header-icon"></ion-icon><span [translate]="'homePage.contactUs'"></span>
+      </ion-button>
+
+      <ng-container [ngSwitch]="type">
+        <ion-button *ngSwitchCase="'icon'" (click)="changeLanguage()">
+          <ion-icon name="globe-outline"></ion-icon>
+        </ion-button>
+        <ion-item *ngSwitchCase="'select'" [ngClass]="itemClass">
+          <ion-label><span translate>Language</span></ion-label>
+          <ion-select [ngModel]="currentLanguage" (ngModelChange)="setLanguage($any($event))" interface="popover">
+            <ion-select-option *ngFor="let language of languages" [value]="language">{{ language }}</ion-select-option>
+          </ion-select>
+        </ion-item>
+        <ion-item *ngSwitchCase="'item'" button (click)="changeLanguage()" [ngClass]="itemClass">
+          <ion-icon name="globe"></ion-icon>
+        </ion-item>
+      </ng-container>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>

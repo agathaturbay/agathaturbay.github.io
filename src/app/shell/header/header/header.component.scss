@@ -1,0 +1,38 @@
+.logo {
+  width: auto;
+  height: 60px;
+  cursor: pointer;
+
+  @media (max-width: 450px) {
+    height: 35px;
+  }
+}
+
+.profile {
+  margin-right: 3px;
+}
+
+.logo-btn {
+  height: 62px;
+}
+
+.header-btn {
+  color: white;
+  .header-icon {
+    padding: 0 5px;
+  }
+}
+
+@media (min-width: 450px) {
+  ion-menu-button {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .display-btn,
+  .header-btn,
+  .header-icon {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "APP_NAME": "Senografia",
+  "global": {
+    "about": "About",
+    "home": "Home",
+    "changeLanguage": "Change language",
+    "language": "Language",
+    "clickHere": "Click here!",
+    "allRights": "All Rights Reserved.",
+    "cancel": "Cancel",
+    "description": "Description",
+    "ok": "Ok",
+    "settings": "Settings"
+  },
+
+  "homePage": {
+    "ourProducts": "Nossos produtos",
+    "contactUs": "Contact us!",
+    "aboutUs": "About us",
+    "aboutUsText": "Senografia is proud of its technology team, and we are concerned about keeping our employees trained and attuned to what happens in the market. We have a team of specialized professionals: cartographers, geographers, systems analysts, economists, biologists, civil engineers, and geoprocessing technicians, as well as professionals specialized in the company's activities. The company also has several professionals from other areas, who work in the consulting for any projects that require the work of these specialists.",
+    "ourSolutions": "Our solutions",
+    "ourSolutionsText": "Senografia Development and Solutions specializes in the provision of remote sensing services, training, scanning and conversion of bases, thematic mapping, environmental planning, geographic information systems and geoprocessing in general. In addition, we also have an excellent collection of satellite images.",
+    "webgisApp": "WebGIS App",
+    "webgisAppText": "We develop geographic information systems in OpenSource platform (Geoserver, Mapserver, OpenLayers, PostGis, Javascript, etc.) or in ESRI platform (ArcGIS) within the needs of each client, inclusive with possible hybrid solutions. Generating georeferenced or tabular queries, these tools speed up activities and decision-making, as well as facilitating the location of information for each activity.",
+    "infoSystems": "Information systems",
+    "quoteCity": "A smart city is a city where humans, trees, birds and other animals can grow with all their glories, imperfections, freedom and creativity. They are not just cities of technology, but cities of love, life, beauty, dignity, freedom and equality."
+  },
+
+  "messageUs": {
+    "name": "Name (mandatory)",
+    "email": "Email (mandatory)",
+    "message": "Message (mandatory)",
+    "send": "Send"
+  }
+}

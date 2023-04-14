@@ -1,0 +1,35 @@
+{
+  "APP_NAME": "Senografia",
+  "global": {
+    "about": "Sobre",
+    "home": "Home",
+    "changeLanguage": "Mudar o idioma",
+    "language": "Idioma",
+    "clickHere": "Clique aqui!",
+    "allRights": "Todos os direitos reservados.",
+    "cancel": "Cancelar",
+    "description": "Descrição",
+    "ok": "Ok",
+    "settings": "Configurações"
+  },
+
+  "homePage": {
+    "ourProducts": "Nossos produtos",
+    "contactUs": "Fale conosco!",
+    "aboutUs": "Sobre nós",
+    "aboutUsText": "A Senografia se orgulha de sua equipe de tecnologia, e nos preocupa em manter nossos colaboradores treinados e sintonizados com o que acontece no mercado. Contamos com uma equipe de profissionais especializados: cartógrafos, geógrafos, analistas de sistemas, economistas, biólogos, engenheiros civis e técnicos de geoprocessamento, além de profissionais especializados nas atividades da empresa. A empresa também conta com diversos profissionais de outras áreas, que atuam na consultoria para quaisquer projetos que exijam o trabalho desses especialistas.",
+    "ourSolutions": "Nossas soluções",
+    "ourSolutionsText": "A Senografia Desenvolvimento e Soluções é especializada na prestação de serviços de sensoriamento remoto, treinamento, digitalização e conversão de bases, mapeamento temático, planejamento ambiental, sistemas de informação geográfica e geoprocessamento em geral. Além disso, também temos uma excelente coleção de imagens de satélite.",
+    "webgisApp": "Aplicativo WebGIS",
+    "webgisAppText": "Desenvolvemos sistemas de informação geográfica em plataforma OpenSource (Geoserver, Mapserver, OpenLayers, PostGis, Javascript, etc.) ou em plataforma ESRI (ArcGIS) dentro das necessidades de cada cliente, inclusive com possíveis soluções híbridas. Gerando consultas georreferenciadas ou tabulares, essas ferramentas agilizam as atividades e a tomada de decisões, além de facilitar a localização das informações para cada atividade.",
+    "infoSystems": "Sistemas de informação",
+    "quoteCity": "Uma cidade inteligente é uma cidade onde humanos, árvores, pássaros e outros animais podem crescer com todas as suas glórias, imperfeições, liberdade e criatividade. Não são apenas cidades de tecnologia, mas cidades de amor, vida, beleza, dignidade, liberdade e igualdade."
+  },
+
+  "messageUs": {
+    "name": "Nome (obrigatório)",
+    "email": "Email (obrigatório)",
+    "message": "Mensagem (obrigatório)",
+    "send": "Enviar"
+  }
+}

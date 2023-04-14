@@ -1,0 +1,35 @@
+{
+  "APP_NAME": "Senografia",
+  "global": {
+    "about": "Sobre",
+    "home": "Home",
+    "changeLanguage": "Cambiar idioma",
+    "language": "Idioma",
+    "clickHere": "Clique aqui!",
+    "allRights": "Todos los derechos reservados.",
+    "cancel": "Cancelar",
+    "description": "Descripción",
+    "ok": "Ok",
+    "settings": "Configuración"
+  },
+
+  "homePage": {
+    "ourProducts": "Nossos produtos",
+    "contactUs": "¡Contáctenos!",
+    "aboutUs": "Sobre nosotros",
+    "aboutUsText": "Senografia está orgullosa de su equipo de tecnología, y nos preocupamos por mantener a nuestros empleados capacitados y en sintonía con lo que sucede en el mercado. Contamos con un equipo de profesionales especializados: cartógrafos, geógrafos, analistas de sistemas, economistas, biólogos, ingenieros civiles y técnicos de geoprocesamiento, así como profesionales especializados en las actividades de la empresa. La empresa también cuenta con varios profesionales de otras áreas, que trabajan en la consultoría para cualquier proyecto que requiera el trabajo de estos especialistas.",
+    "ourSolutions": "Nuestras soluciones",
+    "ourSolutionsText": "Senografia Development and Solutions se especializa en la prestación de servicios de teledetección, capacitación, escaneo y conversión de bases, mapeo temático, planificación ambiental, sistemas de información geográfica y geoprocesamiento en general. Además, también tenemos una excelente colección de imágenes satelitales.",
+    "webgisApp": "WebGIS App",
+    "webgisAppText": "Desarrollamos sistemas de información geográfica en plataforma OpenSource (Geoserver, Mapserver, OpenLayers, PostGis, Javascript, etc.) o en plataforma ESRI (ArcGIS) dentro de las necesidades de cada cliente, inclusive con posibles soluciones híbridas. Al generar consultas georreferenciadas o tabulares, estas herramientas agilizan las actividades y la toma de decisiones, además de facilitar la localización de la información para cada actividad.",
+    "infoSystems": "Sistemas de información",
+    "quoteCity": "Una ciudad inteligente es una ciudad donde los humanos, los árboles, las aves y otros animales pueden crecer con todas sus glorias, imperfecciones, libertad y creatividad. No son solo ciudades de tecnología, sino ciudades de amor, vida, belleza, dignidad, libertad e igualdad."
+  },
+
+  "messageUs": {
+    "name": "Nombre (requerido)",
+    "email": "Email (requerido)",
+    "message": "Mensaje (requerido)",
+    "send": "Enviar"
+  }
+}
